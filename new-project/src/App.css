@@ -1,0 +1,88 @@
+
+.incomeandexpense{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ margin-left: 15%;
+ margin-top: 30px;
+ margin-right: 15%;
+ border-style: double;
+ border-radius: 20px;
+ overflow: hidden;
+ background-color: rgb(28, 114, 147);
+ color: white;
+}
+.incomeandexpense header{
+ padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: double underline black;
+
+}
+
+
+/* 
+.incomeandexpense {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.incomeandexpense h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.balance {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addtransaction {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addtransaction input[type="text"],
+.addtransaction input[type="number"],
+.addtransaction input[type="date"],
+.addtransaction button {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.addtransaction button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.transaction .delete-btn {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+} */
+

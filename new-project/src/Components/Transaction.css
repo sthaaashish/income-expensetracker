@@ -1,0 +1,48 @@
+.transactionlist{
+  padding: 10px;
+  margin-top: 10px;
+}
+.transactionlist p{
+  font-size: 30px;
+
+}
+.ul{
+  list-style-type: none;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: groove;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: white;
+
+}
+.income{
+  border-color: green;
+}
+.expense{
+  border-color: red;
+}
+li button{
+  background-color: rgb(25, 145, 105);
+  font-size: 16px;
+  margin-left: 6px;
+  padding: 10px;
+
+}
+.amount{
+ text-align: right;
+ flex-grow: 1;
+}
+.date{
+  text-align: left;
+  flex-grow: 1;
+}
+.text{
+  text-align: center;
+  flex-grow: 1;
+}
+
+  
