@@ -66,4 +66,41 @@ button.active{
 }
 
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .inputs {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  h4 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .inputfields {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .category {
+    flex-wrap: wrap;
+  }
+
+  .category button {
+    margin: 5px;
+  }
+}
 

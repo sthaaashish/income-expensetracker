@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import TransactionList from './Components/Transaction';
-import Balance from './Components/Balance';
-import AddTransaction from './Components/AddTransaction';
-import './App.css'
+import React, { useState } from "react";
+import TransactionList from "./Components/Transaction";
+import Balance from "./Components/Balance";
+import AddTransaction from "./Components/AddTransaction";
+import "./App.css";
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);
 
-  const addTransaction = (text, amount,date,category) => {
+  const addTransaction = (text, amount, date, category) => {
     const newTransaction = {
       id: Math.random(),
       text,
       amount: +amount,
       date,
-      category
+      category,
     };
 
     setTransactions([...transactions, newTransaction]);
@@ -21,7 +21,7 @@ const App = () => {
 
   const deleteTransaction = (id) => {
     const updatedTransactions = transactions.filter(
-      transaction => transaction.id !== id
+      (transaction) => transaction.id !== id
     );
 
     setTransactions(updatedTransactions);
@@ -31,7 +31,7 @@ const App = () => {
     <div className="incomeandexpense">
       <header>Income and Expense Tracker</header>
       <Balance transactions={transactions} />
-      <AddTransaction addTransaction={addTransaction}/>
+      <AddTransaction addTransaction={addTransaction} />
       <TransactionList
         transactions={transactions}
         deleteTransaction={deleteTransaction}
