@@ -14,9 +14,10 @@
 }
 .incomeandexpense header{
  padding: 5px;
+ background-color:  #317773;
   text-align: center;
   font-size: 30px;
-  text-decoration: double underline black;
+
 
 }
 @media (max-width: 768px) {
